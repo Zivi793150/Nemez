@@ -1,0 +1,175 @@
+{% extends "base.html" %}
+
+{% block title %}German Apartment Finder - Find Your Perfect Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="gradient-bg text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Find Your Perfect Apartment in Germany
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-blue-100">
+                Advanced search, instant notifications, and AI-powered analysis to help you find the ideal home
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/register" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors">
+                    <i class="fas fa-user-plus mr-2"></i>Get Started Free
+                </a>
+                <a href="/apartments" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-600 transition-colors">
+                    <i class="fas fa-search mr-2"></i>Browse Apartments
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Why Choose ApartmentFinder?
+            </h2>
+            <p class="text-xl text-gray-600">
+                Our advanced platform combines cutting-edge technology with user-friendly design
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Feature 1 -->
+            <div class="text-center card-hover p-6 rounded-lg bg-gray-50">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-bolt text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Instant Notifications</h3>
+                <p class="text-gray-600">
+                    Get notified within seconds when new apartments match your criteria
+                </p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="text-center card-hover p-6 rounded-lg bg-gray-50">
+                <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-robot text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">AI Analysis</h3>
+                <p class="text-gray-600">
+                    Smart analysis of apartment features, location, and value
+                </p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="text-center card-hover p-6 rounded-lg bg-gray-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-filter text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Advanced Filters</h3>
+                <p class="text-gray-600">
+                    Filter by district, price, rooms, area, and more
+                </p>
+            </div>
+            
+            <!-- Feature 4 -->
+            <div class="text-center card-hover p-6 rounded-lg bg-gray-50">
+                <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-shield-alt text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Secure & Private</h3>
+                <p class="text-gray-600">
+                    Your data is protected with enterprise-grade security
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                How It Works
+            </h2>
+            <p class="text-xl text-gray-600">
+                Simple steps to find your perfect apartment
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Step 1 -->
+            <div class="text-center">
+                <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">
+                    1
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Create Your Profile</h3>
+                <p class="text-gray-600">
+                    Sign up and set your preferences for location, budget, and requirements
+                </p>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="text-center">
+                <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">
+                    2
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Set Up Filters</h3>
+                <p class="text-gray-600">
+                    Configure your search filters to match your exact needs
+                </p>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="text-center">
+                <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">
+                    3
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Get Notified</h3>
+                <p class="text-gray-600">
+                    Receive instant notifications when new apartments are available
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-20 bg-blue-600 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-bold mb-2">10,000+</div>
+                <div class="text-blue-100">Active Users</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-2">50,000+</div>
+                <div class="text-blue-100">Apartments Found</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-2">95%</div>
+                <div class="text-blue-100">Success Rate</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-2">&lt;30s</div>
+                <div class="text-blue-100">Notification Time</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Ready to Find Your Perfect Home?
+        </h2>
+        <p class="text-xl text-gray-600 mb-8">
+            Join thousands of users who have already found their ideal apartment in Germany
+        </p>
+        <a href="/register" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold text-lg inline-block">
+            <i class="fas fa-rocket mr-2"></i>Start Your Search Today
+        </a>
+    </div>
+</section>
+{% endblock %}
