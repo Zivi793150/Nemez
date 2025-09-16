@@ -1,0 +1,26 @@
+# Telegram Bot Configuration
+BOT_TOKEN=your_telegram_bot_token_here
+
+# Database Configuration
+DATABASE_URL=sqlite:///apartments.db
+
+# Redis Configuration (optional)
+REDIS_URL=redis://localhost:6379
+
+# API Keys for Real Estate Sites
+IMMOSCOUT24_API_KEY=your_immoscout24_api_key_here
+IMMOWELT_API_KEY=your_immowelt_api_key_here
+ESTATESYNC_API_KEY=your_estatesync_api_key_here
+
+# AI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-3.5-turbo
+ENABLE_AI_ANALYSIS=true
+
+# Subscription Settings
+SUBSCRIPTION_PRICE=9.99
+SUBSCRIPTION_DURATION=30
+
+# Monitoring Settings
+CHECK_INTERVAL=60
+MAX_RETRIES=3
